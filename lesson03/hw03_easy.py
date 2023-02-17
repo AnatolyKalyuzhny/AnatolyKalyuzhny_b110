@@ -12,6 +12,7 @@
 # 4.  арбуз
 
 # Подсказка: воспользоваться методом .format()
+
 items = ["яблоко", "банан", "киви", "арбуз"]
 for i, items in enumerate(items, start= 1):
     print("{}. {:>6}".format(i, items))
